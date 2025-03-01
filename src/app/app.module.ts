@@ -10,6 +10,7 @@ import { CardComponent } from './components/card/card.component';
 import { GridArticoliComponent } from './core/grid-articoli/grid-articoli.component';
 import { PrimoPianoComponent } from './core/primo-piano/primo-piano.component';
 import { CardCategoriesComponent } from './components/card-categories/card-categories.component';
+import { LoginFormComponent } from './pages/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CardCategoriesComponent } from './components/card-categories/card-categ
     CardComponent,
     GridArticoliComponent,
     PrimoPianoComponent,
-    CardCategoriesComponent
+    CardCategoriesComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule
