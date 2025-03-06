@@ -11,6 +11,10 @@ import { GridArticoliComponent } from './core/grid-articoli/grid-articoli.compon
 import { PrimoPianoComponent } from './core/primo-piano/primo-piano.component';
 import { CardCategoriesComponent } from './components/card-categories/card-categories.component';
 import { LoginFormComponent } from './pages/login-form/login-form.component';
+import { AppRoutingModule } from './app-routing.module';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { ErrorComponent } from './pages/error/error.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +27,14 @@ import { LoginFormComponent } from './pages/login-form/login-form.component';
     GridArticoliComponent,
     PrimoPianoComponent,
     CardCategoriesComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    WelcomeComponent,
+    ErrorComponent,
+    RegistrationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
