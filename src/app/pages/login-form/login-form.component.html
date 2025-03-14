@@ -1,26 +1,33 @@
-<div class="d-flex flex-column align-items-center justify-content-center bg-light">
-    <img class="col-2 pt-2 pb-0 rounded " src="../../../assets/Images/logo.svg">
-    <h2>Online Shopping</h2>
-    <h3>Accedi alla tua area riservata</h3>
-</div>
+<!--Container-->
+<div class="d-flex justify-content-center">
 
-
-<form class="d-flex flex-column align-items-center bg-light p-2 text-secondary">
-    <div class="form-group  p-2  w-25">
+  <div class=" d-flex align-items-center flex-column w-50 ">
+    <div class="d-flex flex-column mt-5  align-items-center ">
+      <img class="col-4 rounded "(click)="handleHome()" type="button" src="../../../assets/Images/logo.svg">
+      <h2>Online Shopping</h2>
+      <h4>Accedi alla tua area riservata</h4>
+    </div>
+  
+    <div class="form-group p-2  w-50 ">
       <label for="exampleInputEmail1">E-mail</label>
       <input type="email" class="form-control p-2 shadow-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci la tua e-mail">
     </div>
-    <div class="form-group w-25 p-2">
+    <div class="form-group p-2 w-50">
       <label for="exampleInputPassword1">Password</label>
       <input type="password" class="form-control shadow-sm" id="exampleInputPassword1" placeholder="Inserisci la password">
     </div>
-    <div class="form-group form-check w-25 text-center">
+    <div class="form-group form-check text-center">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Ricordami</label>
     </div>
-<div class="d-flex flex-wrap p-2 col-12 justify-content-center">
-    <button type="submit" class="btn btn-success col-1 m-2">Accedi</button>
-    <button type="submit" class="btn btn-warning col-1 m-2">Registrati</button>
-</div> 
-    
-  </form>
+  
+    <div class="d-flex flex-row w-auto p-2  justify-content-center ">
+      <button type="submit" class="btn btn-success col-6 m-2">Accedi</button>
+      <button type="submit" class="btn btn-warning col-6 m-2" (click)="handleRegistration()">Registrati</button>
+  </div> 
+</div>
+</div>
+
+
+
+  <app-footer class="fixed-bottom"></app-footer>

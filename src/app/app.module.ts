@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { NavBarComponent } from './core/nav-bar/nav-bar.component';
@@ -15,6 +14,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
+import { ArticoliService } from '../app/services/articoli.service'; // Importa ArticoliService
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormErrorDirective } from './directives/form-error.directive';
+
+
 
 @NgModule({
   declarations: [
@@ -30,13 +35,18 @@ import { RegistrationComponent } from './pages/registration/registration.compone
     LoginFormComponent,
     WelcomeComponent,
     ErrorComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    FormErrorDirective,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
+    
   ],
-  providers: [],
+  providers: [ArticoliService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
