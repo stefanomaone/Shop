@@ -1,0 +1,213 @@
+[
+    {
+      "codart": "00011",
+      "nome": "Nestlé",
+      "descrizione": "Latte condensato dolce",
+      "tag": "latte",
+      "immagine": "https://i.ebayimg.com/images/g/1noAAOSw~EdnpPHh/s-l1600.webp",
+      "prezzo": 15.11,
+      "promo": 10,
+      "disponibile": 8
+    },
+    {
+      "codart": "00012",
+      "nome": "Ferrero",
+      "descrizione": "Nutella crema spalmabile",
+      "tag": "cioccolato",
+      "immagine": "https://m.media-amazon.com/images/I/71Kr1pJMalL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "prezzo": 8.99,
+      "promo": null,
+      "disponibile": 9
+    },
+    {
+      "codart": "00013",
+      "nome": "Kinder",
+      "descrizione": "Cioccolato al latte",
+      "tag": "dolci",
+      "immagine": "https://m.media-amazon.com/images/I/71n73t+bAIL._AC_SY300_SX300_.jpg",
+      "prezzo": 4.50,
+      "promo": null,
+      "disponibile": 10
+    },
+    {
+      "codart": "00014",
+      "nome": "Bauli",
+      "descrizione": "Pandoro classico morbido",
+      "tag": "dolci",
+      "immagine": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR04XVCgIseShuvrte8ydFusdG8dtiRZnJAdf3vDxCzZhFgT52GqDMSai3LEz_iXS0pL7C1M8oN8nC7m0Hf7zhpOaApj1dSS4RXVN4ajxeZ0ATUO19VWbxOGA",
+      "prezzo": 6.25,
+      "promo": null,
+      "disponibile": 7
+    },
+    {
+      "codart": "00015",
+      "nome": "Misura",
+      "descrizione": "Biscotti senza zucchero",
+      "tag": "biscotti",
+      "immagine": "https://d3b6emlmuz0lkz.cloudfront.net/catalog/product/cache/1/thumbnail/453x378/602f0fa2c1f0d1ba5e241f914e856ff9/9/7/970357467-341767.jpg",
+      "prezzo": 3.85,
+      "promo": null,
+      "disponibile": 6
+    },
+    {
+      "codart": "00016",
+      "nome": "Parmalat",
+      "descrizione": "Latte UHT intero",
+      "tag": "latte",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/10/17/2199/3776630_1040903.jpg?$pdp_large_normal_598$",
+      "prezzo": 1.60,
+      "promo": null,
+      "disponibile": 10
+    },
+    {
+      "codart": "00017",
+      "nome": "Rio Mare",
+      "descrizione": "Tonno in scatola",
+      "tag": "pesce",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/444559/6424091_1060656.jpg?$pdp_large_normal_598$",
+      "prezzo": 4.20,
+      "promo": null,
+      "disponibile": 8
+    },
+    {
+      "codart": "00018",
+      "nome": "Valfrutta",
+      "descrizione": "Succo 100% frutta",
+      "tag": "succo",
+      "immagine": "https://www.spesup.it/wp-content/uploads/2025/01/e7a66bcf-4881-4274-90e1-804360fafedb.png",
+      "prezzo": 2.80,
+      "promo": null,
+      "disponibile": 9
+    },
+    {
+      "codart": "00019",
+      "nome": "Zuegg",
+      "descrizione": "Marmellata albicocca bio",
+      "tag": "marmellata",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/338641/6317095_909930.jpg?$pdp_large_normal_598$",
+      "prezzo": 3.50,
+      "promo": null,
+      "disponibile": 10
+    },
+    {
+      "codart": "00020",
+      "nome": "Nescafé",
+      "descrizione": "Caffè solubile classico",
+      "tag": "caffè",
+      "immagine": "https://m.media-amazon.com/images/I/61WvwRcQOIL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "prezzo": 6.75,
+      "promo": null,
+      "disponibile": 7
+    },
+    {
+      "codart": "00021",
+      "nome": "Barilla",
+      "descrizione": "Pasta penne rigate",
+      "tag": "pasta",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/4216/3354770_1128395.jpg?$pdp_large_normal_598$",
+      "prezzo": 1.25,
+      "promo": 50,
+      "disponibile": 10
+    },
+    {
+      "codart": "00022",
+      "nome": "De Cecco",
+      "descrizione": "Pasta fusilli integrali",
+      "tag": "pasta",
+      "immagine": "https://www.abcfoodservice.it/26528-large_default/de-cecco-fusilli-integrali-500-gr.jpg",
+      "prezzo": 2.90,
+      "promo": null,
+      "disponibile": 6
+    },
+    {
+      "codart": "00023",
+      "nome": "Galbusera",
+      "descrizione": "Crackers senza glutine",
+      "tag": "crackers",
+      "immagine": "https://www.spesup.it/wp-content/uploads/2025/01/bbdf7681-3860-4136-8aac-75e3c8165ce7.png",
+      "prezzo": 3.10,
+      "promo": null,
+      "disponibile": 7
+    },
+    {
+      "codart": "00024",
+      "nome": "Voiello",
+      "descrizione": "Pasta linguine oro",
+      "tag": "pasta",
+      "immagine": "https://i.ebayimg.com/images/g/j-UAAOSwqHNluTPk/s-l1600.webp",
+      "prezzo": 2.55,
+      "promo": null,
+      "disponibile": 8
+    },
+    {
+      "codart": "00025",
+      "nome": "Divella",
+      "descrizione": "Pasta farfalle tricolore",
+      "tag": "pasta",
+      "immagine": "https://www.divella.it/wp-content/uploads/2022/10/Divella-pasta-fantasie-ghiotte-penne-pomodoro-spinaci-1.jpg",
+      "prezzo": 2.45,
+      "promo": null,
+      "disponibile": 9
+    },
+    {
+      "codart": "00026",
+      "nome": "Mulino Bianco",
+      "descrizione": "Fette biscottate dorate",
+      "tag": "biscotti",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/31752/3348660_1018411.jpg?$pdp_large_normal_598$",
+      "prezzo": 3.90,
+      "promo": 20,
+      "disponibile": 6
+    },
+    {
+      "codart": "00027",
+      "nome": "La Fiammante",
+      "descrizione": "Passata pomodoro rustica",
+      "tag": "pomodoro",
+      "immagine": "https://www.abcfoodservice.it/24310-large_default/la-fiammante-passata.jpg",
+      "prezzo": 1.80,
+      "promo": null,
+      "disponibile": 10
+    },
+    {
+      "codart": "00028",
+      "nome": "Pavesi",
+      "descrizione": "Gocciole cioccolato fondente",
+      "tag": "biscotti",
+      "immagine": "https://pics.trovaprezzi.it/it-300x300/591663379.jpg",
+      "prezzo": 2.99,
+      "promo": null,
+      "disponibile": 9
+    },
+    {
+      "codart": "00029",
+      "nome": "San Carlo",
+      "descrizione": "Patatine classiche croccanti",
+      "tag": "snack",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/1274127/4766718_1970235.jpg?$pdp_large_normal_598$",
+      "prezzo": 2.25,
+      "promo": null,
+      "disponibile": 8
+    },
+    {
+      "codart": "00030",
+      "nome": "Riso Gallo",
+      "descrizione": "Riso arborio super fino",
+      "tag": "riso",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/6/8/16/1280523/4793280_2103099.jpg?$pdp_large_normal_598$",
+      "prezzo": 3.40,
+      "promo": null,
+      "disponibile": 7
+    },
+    {
+      "codart": "00031",
+      "nome": "Coca Cola",
+      "descrizione": "Bibita gassata",
+      "tag": "bevande",
+      "immagine": "https://s7g10.scene7.com/is/image/unicooptirreno/unicoop-dam/10/2024/10/8/12/1470858/7849765_1429955.jpg?$pdp_large_normal_598$",
+      "prezzo": 1.95,
+      "promo": 10,
+      "disponibile": 9
+    }
+  ]
+  
